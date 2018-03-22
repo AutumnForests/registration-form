@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <section class="island">
+    <div class="max-length">
+      <div class="">
+        <h1 class="push peta">Want to go to Mars?</h1>
+        <p class="max-length mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      </div>
+      <form class="" method="POST" action="https://https://formspree.io/meganmariedaley@gmail.com">
+        <fieldset class="">
+          <legend class="unit italic bold giga push">Personal details</legend>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-8">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-8">
+              <label for="age">Age</label>
+              <input id="age" name="age" required>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-8">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-8">
+              <label>Physical fitness</label>
+              <select id="subject" name="_subject">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
+            <div class="unit push-0 xs-1 s-1 m-1 l-1">
+              <label for="address">Address</label>
+              <textarea id="address" name="address" required></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="italic bold giga push">Mission statement</legend>
+          <div class="push">
+            <label for="why">Why do you want to go to Mars?</label>
+            <textarea id="why" name="why" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn">Register for the trip!</button>
+          </div>
+          <input type="hidden" name="_subject" value="Request to join the mission">
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,26 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  border-bottom: 1px #000 solid;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: .5rem;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    border-left: #f2f2f2;
+    border-right: #f2f2f2;
+  }
+
+}
